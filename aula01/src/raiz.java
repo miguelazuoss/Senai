@@ -12,7 +12,7 @@ public class raiz {
         raiz = scanner.nextDouble();
         
 
-        System.out.printf("Sua raiz quadrada do numero "+ raiz + " é: %.2f", (Math.sqrt(raiz)));
+        System.out.printf("Sua raiz quadrada do numero "+ raiz + " e: %.2f", (Math.sqrt(raiz)));
         
         scanner.close();
     }
