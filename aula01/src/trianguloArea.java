@@ -30,7 +30,7 @@ public class trianguloArea {
         
         if (pX_Total > pY_Total) {
             System.out.println("O valor da area do triangulo X e: "+ String.format("%.4f", pX_Total) + " e a area do triangulo Y e: "+ String.format("%.4f", pY_Total)+ " logo a area do triangulo X e maior");
-        } if (pX_Total == pY_Total) {
+        } else if (pX_Total == pY_Total) {
             System.out.println("O valor da area do triangulo X e: "+ String.format("%.4f", pX_Total) + " e a area do triangulo Y e: "+String.format("%.4f", pY_Total)+ " logo as duas areas sao iguais");
         } else {
             System.out.println("O valor da area do triangulo X e: "+ String.format("%.4f", pX_Total) + " e a area do triangulo Y e: "+ String.format("%.4f", pY_Total)+ " logo a area do triangulo Y e maior");
